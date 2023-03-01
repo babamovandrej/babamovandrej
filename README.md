@@ -1,16 +1,31 @@
-### Hi there 👋
+```javascript
 
-<!--
-**babamovandrej/babamovandrej** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+class About extends Me {
+  obtainWorkplace() {
+    return {
+      workplace: {
+        company: 'GRAZ',
+        position: 'Chief Technical Officer'
+      }
+    };
+  }
 
-Here are some ideas to get you started:
+  obtainKnowledge() {
+    return [
+      'JavaScript',
+      'React',
+      'Node.js',
+      'Solidity',
+      'Python',
+      'CSS',
+      'Bootstrap',
+      'PostgreSQL'
+    ];
+  }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  getGoal() {
+    return 'Build the next generation of internet.';
+  }
+}
+
+```
