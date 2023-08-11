@@ -10,16 +10,16 @@ class About extends Me {
   obtainWorkplace() {
     return {
       workplace: {
-        company: 'GRAZ',
-        position: 'Chief Technical Officer'
+        company: 'TokenShield',
+        position: 'Co-founder'
       }
     };
   }
 
   obtainKnowledge() {
     return [
-      'JavaScript',
-      'React',
+      'Typescript',
+      'Next.js',
       'Node.js',
       'Solidity',
       'Python',
